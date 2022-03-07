@@ -4,10 +4,13 @@ export const StyledHeader = styled.header`
     background-color: ${({theme}) => theme.colors.header};
     padding: 40px 0;
 
-    /* border to test how it looks remove before publishing */
-    border: solid;
-    border-color: red;
-    border-width: thin;
-
-
 `
+
+export const Nav = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+`
+
+export const Logo= styled.img``

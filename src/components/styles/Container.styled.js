@@ -6,8 +6,4 @@ export const Container = styled.div`
     padding: 0 20px;
     margin: 0 auto;
 
-    /* border to test how it looks remove before publishing */
-    border: solid;
-    border-color: red;
-    border-width: thin;
 `
